@@ -9,6 +9,7 @@ export class ListTitlesComponent implements OnInit {
 
   constructor() { }
   @Input() title: string;
+  @Input() list: [];
 
   ngOnInit(): void {
   }
